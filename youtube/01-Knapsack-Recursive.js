@@ -34,5 +34,10 @@ const wt    =  [10,20,30] ;
 const cap   =  50 ;
 const n     =  3 ; 
 
+let t1 = new Date().getTime();
+console.log(t1);
 const max_profit = findMaxProfit(wt,val,cap,n);
+let t2 = new Date().getTime();
+console.log(t2);
 console.log("Max-Profit : ", max_profit);
+console.log("Time Taken : ", t2-t1 ,"ms");
