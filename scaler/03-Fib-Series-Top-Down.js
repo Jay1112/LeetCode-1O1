@@ -1,3 +1,6 @@
+// TC : O(N)
+// SC : O(N)
+
 function fib(n){
     let dp = new Array(n+1).fill(-1);
 

@@ -1,3 +1,6 @@
+// TC : O(2^N)
+// SC : O(N)
+
 function fib(n){
     if(n <= 1){
         return n;
